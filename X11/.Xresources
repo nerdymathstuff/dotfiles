@@ -1,39 +1,38 @@
-! set colors (Tokyo Night)
-*.foreground:	#A9B1D6
-*.background:	#1A1B26
-*.cursorColor:	#A9B1D6
+! set colors (Dracula)
+*.foreground:	#F8F8F2
+*.background:	#282A36
 
 ! black
-*.color0:	#32344A
-*.color8:	#444B6A
+*.color0:	#000000
+*.color8:	#4D4D4D
 
 ! red
-*.color1:	#F7768E
-*.color9:	#FF7A93
+*.color1:	#FF5555
+*.color9:	#FF6E67
 
 ! green
-*.color2:	#9ECE6A
-*.color10:	#B9F27C
+*.color2:	#50FA7B
+*.color10:	#5AF78E
 
 ! yellow
-*.color3:	#E0AF68
-*.color11:	#FF9E64
+*.color3:	#F1FA8E
+*.color11:	#F4F99D
 
 ! blue
-*.color4:	#7AA2F7
-*.color12:	#7DA6FF
+*.color4:	#BD93F9
+*.color12:	#CAA9FA
 
 ! magenta
-*.color5:	#AD8EE6
-*.color13:	#BB9AF7
+*.color5:	#FF79C6
+*.color13:	#FF92D0
 
 ! cyan
-*.color6:	#449DAB
-*.color14:	#0DB9D7
+*.color6:	#8BE9FD
+*.color14:	#9AEDFE
 
 ! white
-*.color7:	#787C99
-*.color15:	#ACB0D0
+*.color7:	#BFBFBF
+*.color15:	#E6E6E6
 
 ! set font for urxvt
 URxvt*font:	xft:DejaVuSansMono:size=14:antialias=true
@@ -50,3 +49,7 @@ URxvt*scrollBar:	false
 
 ! set urxvt scroll history size
 URxvt*saveLines:	5000
+
+! disable ISO 14755 input
+URxvt.iso14755: false
+URxvt.iso14755_52:  false
